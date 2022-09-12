@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+:root{
+    --fondo:#000B49; 
+    --letrasprimarias:#FF7272;
+    --fondop:#9B0000;
+    --letras2:#FFB5B5;
+    }   
+
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style: none;
+    font-family: 'Indie Flower', cursive;
+    }
+
+    header{
+        background-color:var(--fondo);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 80px; 
+        max-width: 12000px;
+        position: sticky;}
+    
+        .menuprincipal{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 90px;
+            padding-right: 20px;
+            font-size: 23px;
+            padding-top: 20px; }
+
+            .menuprincipal a{
+                color:var(--letras2)}
+
+            main{ background: var(--letrasprimarias);
+                display:flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 410px;
+                color:white}
+
+                #hero{margin-top: 65px;
+                display: flex;
+                justify-items: center;
+                align-items: center;
+                max-width: 1200px;}
+
+        .herofotos1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 50%;
+            flex-direction: column;
+            }
+
+            .herofotos1 img{
+                 border-radius: 1px;
+                border: solid;
+                border-color: white;
+                display: flex;
+                justify-items: center;
+                align-items: center;
+                width: 35%;
+                height: 35%;
+
+            }
+            .herofotos1 button{
+                width: 100px;
+                height: 28px;
+                border-radius: 1rem;
+                border: solid;
+                border-color: black;
+                background-color: #000B49;
+                color: var(--letras2);
+                font-size: 20px;
+                font-family: sans-serif;
+                cursor: pointer;}
+                
+                .herofotos1 h1{
+                    font-size: 40px;
+                    color: var(--fondo);
+                    border: solid;
+                    border-radius: 1rem;
+                    border-color: white;
+                    padding: 10px 10px;
+                }
+
+                .herofotos1 p{
+                    font-size: 20px;
+                    color:var(--fondo)
+                }
+
+                .herofotos2{
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: var(--fondo);
+                    flex-direction: column;
+                    gap: 20px;}
+
+                .herofotos2 h1{
+                    font-size: 40px;
+                    border-style: double;
+                    border:solid;
+                    border-color: white;
+                    border-radius: 1rem;
+                    padding: 10px 10px ;}
+                    
+             
+                    .herofotos2 p{
+                        font-size: 25px
+
+             }
+
+                    
+
+                
+                    
+                
+
+                    
+                
+
+            
+        
+    
+
+        
+            
+
+        
+        
